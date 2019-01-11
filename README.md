@@ -19,10 +19,10 @@ php artisan make:model User<br /><br />
 php artisan make:controller UserController<br /><br />
 
 ###### Show Funktion anlegen:
-    public function show($id)<br />
-    {<br />
-        return view('users', User::all());<br />
-    }<br /><br />
+    public function show($id)
+    {
+        return view('users', User::all());
+    }
 
 ###### create view:
 create file by hand in resources/views/users.blade.php<br />
